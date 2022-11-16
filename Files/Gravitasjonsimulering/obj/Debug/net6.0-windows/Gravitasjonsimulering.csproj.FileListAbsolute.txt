@@ -15,3 +15,20 @@ C:\Users\elnaa001\OneDrive - Oslo Kommune Utdanningsetaten\Videregående\3. klas
 C:\Users\elnaa001\OneDrive - Oslo Kommune Utdanningsetaten\Videregående\3. klasse VGS\Fysikk 2\Fysikkprosjekt\Gravitasjonsimulering\obj\Debug\net6.0-windows\Gravitasjonsimulering.genruntimeconfig.cache
 C:\Users\elnaa001\OneDrive - Oslo Kommune Utdanningsetaten\Videregående\3. klasse VGS\Fysikk 2\Fysikkprosjekt\Gravitasjonsimulering\obj\Debug\net6.0-windows\ref\Gravitasjonsimulering.dll
 C:\Users\elnaa001\OneDrive - Oslo Kommune Utdanningsetaten\Videregående\3. klasse VGS\Fysikk 2\Fysikkprosjekt\Gravitasjonsimulering\obj\Debug\net6.0-windows\Gravitasjonsimulering.Planet.resources
+C:\Users\shsha001\Source\Repos\daDevBoat\gravitasjonssimulering\Files\Gravitasjonsimulering\bin\Debug\net6.0-windows\Gravitasjonsimulering.exe
+C:\Users\shsha001\Source\Repos\daDevBoat\gravitasjonssimulering\Files\Gravitasjonsimulering\bin\Debug\net6.0-windows\Gravitasjonsimulering.deps.json
+C:\Users\shsha001\Source\Repos\daDevBoat\gravitasjonssimulering\Files\Gravitasjonsimulering\bin\Debug\net6.0-windows\Gravitasjonsimulering.runtimeconfig.json
+C:\Users\shsha001\Source\Repos\daDevBoat\gravitasjonssimulering\Files\Gravitasjonsimulering\bin\Debug\net6.0-windows\Gravitasjonsimulering.dll
+C:\Users\shsha001\Source\Repos\daDevBoat\gravitasjonssimulering\Files\Gravitasjonsimulering\bin\Debug\net6.0-windows\Gravitasjonsimulering.pdb
+C:\Users\shsha001\Source\Repos\daDevBoat\gravitasjonssimulering\Files\Gravitasjonsimulering\obj\Debug\net6.0-windows\Gravitasjonsimulering.csproj.AssemblyReference.cache
+C:\Users\shsha001\Source\Repos\daDevBoat\gravitasjonssimulering\Files\Gravitasjonsimulering\obj\Debug\net6.0-windows\Gravitasjonsimulering.Planet.resources
+C:\Users\shsha001\Source\Repos\daDevBoat\gravitasjonssimulering\Files\Gravitasjonsimulering\obj\Debug\net6.0-windows\Gravitasjonsimulering.csproj.GenerateResource.cache
+C:\Users\shsha001\Source\Repos\daDevBoat\gravitasjonssimulering\Files\Gravitasjonsimulering\obj\Debug\net6.0-windows\Gravitasjonsimulering.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shsha001\Source\Repos\daDevBoat\gravitasjonssimulering\Files\Gravitasjonsimulering\obj\Debug\net6.0-windows\Gravitasjonsimulering.AssemblyInfoInputs.cache
+C:\Users\shsha001\Source\Repos\daDevBoat\gravitasjonssimulering\Files\Gravitasjonsimulering\obj\Debug\net6.0-windows\Gravitasjonsimulering.AssemblyInfo.cs
+C:\Users\shsha001\Source\Repos\daDevBoat\gravitasjonssimulering\Files\Gravitasjonsimulering\obj\Debug\net6.0-windows\Gravitasjonsimulering.csproj.CoreCompileInputs.cache
+C:\Users\shsha001\Source\Repos\daDevBoat\gravitasjonssimulering\Files\Gravitasjonsimulering\obj\Debug\net6.0-windows\Gravitasjonsimulering.dll
+C:\Users\shsha001\Source\Repos\daDevBoat\gravitasjonssimulering\Files\Gravitasjonsimulering\obj\Debug\net6.0-windows\refint\Gravitasjonsimulering.dll
+C:\Users\shsha001\Source\Repos\daDevBoat\gravitasjonssimulering\Files\Gravitasjonsimulering\obj\Debug\net6.0-windows\Gravitasjonsimulering.pdb
+C:\Users\shsha001\Source\Repos\daDevBoat\gravitasjonssimulering\Files\Gravitasjonsimulering\obj\Debug\net6.0-windows\Gravitasjonsimulering.genruntimeconfig.cache
+C:\Users\shsha001\Source\Repos\daDevBoat\gravitasjonssimulering\Files\Gravitasjonsimulering\obj\Debug\net6.0-windows\ref\Gravitasjonsimulering.dll

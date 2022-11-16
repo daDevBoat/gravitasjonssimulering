@@ -1,3 +1,4 @@
+using System;
 using System.Diagnostics;
 
 namespace Gravitasjonsimulering
@@ -68,14 +69,17 @@ namespace Gravitasjonsimulering
             Planet sola = new Planet("sola", 10, new float[] {300, 10}, 10, 90);
             Planet månen = new Planet("månen", 10, new float[] { 410, 10}, 10, 90);
             //object[] planetListRaw = {jorda, mars, sola, månen};
-            List<object> planetList = new List<object>();
-            planetList.Add(jorda);
-            planetList.Add(mars);
-            planetList.Add(månen);
-            planetList.Add(sola);
+            object[] planetList = { jorda, mars, sola, månen };
+            Console.WriteLine("her");
+            //List<object> planetList = new List<object>();
+            //planetList.Add(jorda);
+            //planetList.Add(mars);
+            //planetList.Add(månen);
+            //planetList.Add(sola);
 
-            foreach (Planet planet in planetList)
+            foreach (Planet planet2 in planetList)
             {
+                Planet planet = (Planet)planet2;
                 Console.WriteLine(planet);
                 Debug.WriteLine(planet);
             }
