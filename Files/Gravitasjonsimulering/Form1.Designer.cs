@@ -1,5 +1,8 @@
 ﻿namespace Gravitasjonsimulering
 {
+
+
+
     partial class Gravitasjonssimulering
     {
         /// <summary>
