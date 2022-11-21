@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\elnaa001\\OneDrive - Oslo Kommune Utdanningsetaten\\Videregående\\3. klasse VGS\\Fysikk 2\\Fysikkprosjekt\\Gravitasjonsimulering\\Gravitasjonsimulering.csproj",
+      "projectUniqueName": "C:\\Users\\elnaa001\\Source\\Repos\\gravitasjonssimulering\\Files\\Gravitasjonsimulering\\Gravitasjonsimulering.csproj",
       "projectName": "Gravitasjonsimulering",
-      "projectPath": "C:\\Users\\elnaa001\\OneDrive - Oslo Kommune Utdanningsetaten\\Videregående\\3. klasse VGS\\Fysikk 2\\Fysikkprosjekt\\Gravitasjonsimulering\\Gravitasjonsimulering.csproj",
+      "projectPath": "C:\\Users\\elnaa001\\Source\\Repos\\gravitasjonssimulering\\Files\\Gravitasjonsimulering\\Gravitasjonsimulering.csproj",
       "packagesPath": "C:\\Users\\elnaa001\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\elnaa001\\OneDrive - Oslo Kommune Utdanningsetaten\\Videregående\\3. klasse VGS\\Fysikk 2\\Fysikkprosjekt\\Gravitasjonsimulering\\obj\\",
+      "outputPath": "C:\\Users\\elnaa001\\Source\\Repos\\gravitasjonssimulering\\Files\\Gravitasjonsimulering\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\elnaa001\\AppData\\Roaming\\NuGet\\NuGet.Config",
