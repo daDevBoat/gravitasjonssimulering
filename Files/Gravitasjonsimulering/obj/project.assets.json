@@ -8,19 +8,24 @@
     "net6.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\elnaa001\\.nuget\\packages\\": {}
+    "C:\\Users\\shsha001\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\elnaa001\\OneDrive - Oslo Kommune Utdanningsetaten\\Videregående\\3. klasse VGS\\Fysikk 2\\Fysikkprosjekt\\Gravitasjonsimulering\\Gravitasjonsimulering.csproj",
+      "projectUniqueName": "C:\\Users\\shsha001\\Source\\Repos\\daDevBoat\\gravitasjonssimulering\\Files\\Gravitasjonsimulering\\Gravitasjonsimulering.csproj",
       "projectName": "Gravitasjonsimulering",
-      "projectPath": "C:\\Users\\elnaa001\\OneDrive - Oslo Kommune Utdanningsetaten\\Videregående\\3. klasse VGS\\Fysikk 2\\Fysikkprosjekt\\Gravitasjonsimulering\\Gravitasjonsimulering.csproj",
-      "packagesPath": "C:\\Users\\elnaa001\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\elnaa001\\OneDrive - Oslo Kommune Utdanningsetaten\\Videregående\\3. klasse VGS\\Fysikk 2\\Fysikkprosjekt\\Gravitasjonsimulering\\obj\\",
+      "projectPath": "C:\\Users\\shsha001\\Source\\Repos\\daDevBoat\\gravitasjonssimulering\\Files\\Gravitasjonsimulering\\Gravitasjonsimulering.csproj",
+      "packagesPath": "C:\\Users\\shsha001\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\shsha001\\Source\\Repos\\daDevBoat\\gravitasjonssimulering\\Files\\Gravitasjonsimulering\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\elnaa001\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\shsha001\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
