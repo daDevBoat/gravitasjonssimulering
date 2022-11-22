@@ -155,6 +155,7 @@ namespace Gravitasjonsimulering
         private void panel1_Paint(object sender, PaintEventArgs e)
         {
             panel1.AutoSize = true;
+            //hei da
         }
 
         private void button1_Click(object sender, EventArgs e)
