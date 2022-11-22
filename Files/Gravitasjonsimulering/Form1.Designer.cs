@@ -47,6 +47,7 @@
             this.planetNumInput.TabIndex = 0;
             this.planetNumInput.Text = "Skriv inn antall planeter";
             this.planetNumInput.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.planetNumInput.KeyDown += new System.Windows.Forms.KeyEventHandler(this.OnKeyDownHandler);
             // 
             // label1
             // 

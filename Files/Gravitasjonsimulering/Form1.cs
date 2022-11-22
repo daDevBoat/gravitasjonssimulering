@@ -39,6 +39,17 @@ namespace Gravitasjonsimulering
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
+
+
+
+
+        }
+        private void OnKeyDownHandler(object sender, KeyEventArgs e)
+        {
+
+            if (e.KeyCode == Keys.Enter)
+            {
+            textBox1.Text = e + "\n";
             int numOfPlanets = Convert.ToInt32(planetNumInput.Text);
             Graphics g = this.panel1.CreateGraphics();
             Pen pen = new Pen(Color.Red);
@@ -56,15 +67,15 @@ namespace Gravitasjonsimulering
                 int y = rdm.Next(100, 600);
                 float[] randPos = {x,y};
                 Planet temp = new Planet("her", 10, randPos, 10, 90);
-                //planetList.Add(temp);   
+                planetList.Add(temp);   
 			}
-
+            
             Planet saturn = new Planet("Saturn", 10, new float[] {100, 100 }, 40, 90);
             Planet neptun = new Planet("neptun", 10, new float[] { 200, 200 }, 40, 90);
             Planet jorda = new Planet("Jorda", 50, new float[] { 200, 410 }, 40, 90);
             Planet mars = new Planet("mars", 10, new float[] {500, 410}, 10, 90);
             Planet sola = new Planet("sola", 10, new float[] {600, 410}, 10, 90);
-            Planet månen = new Planet("månen", 10, new float[] { 910, 410}, 10, 90);
+            Planet månen = new Planet("månen", 10, new float[] { 910, 410}, 10, 90);/*
             planetList.Add(jorda);
             planetList.Add(mars);
             planetList.Add(månen);
@@ -74,12 +85,13 @@ namespace Gravitasjonsimulering
             saturn.tyngdeMet(neptun);
             textBox1.Text += saturn.text + "k\n";
             textBox1.Text += neptun.text;
+            */
 
 
 
-            /*for (int i = 0; i < planetList.Count; i++)
+            for (int i = 0; i < planetList.Count; i++)
             {
-                Planet planet = (Planet) planetList[i];
+                Planet planet1 = (Planet) planetList[i];
                 for (int j = i+1; j < planetList.Count; j++)
                 {
                     Planet planet2 = (Planet) planetList[j];
@@ -89,7 +101,7 @@ namespace Gravitasjonsimulering
                
 
 
-            }*/
+            }
 
 
 
@@ -147,8 +159,7 @@ namespace Gravitasjonsimulering
             //    obj.tyngdeX = 23;
             //    button.Location = new System.Drawing.Point(pos[0], pos[1]);
             //}
-
-
+            }
 
         }
 
