@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Files",
+    "\\Files\\Gravitasjonsimulering"
   ],
-  "SelectedNode": "\\Gravitasjonsimulering.sln",
+  "SelectedNode": "\\Files\\Gravitasjonsimulering\\Form1.cs",
   "PreviewInSolutionExplorer": false
 }

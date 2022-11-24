@@ -49,10 +49,9 @@ public class Planet
     }
     public void move(float t)
     {
-        double ax = this.tyngdeX / this.masse;
-        double ay = this.tyngdeY / this.masse;
+        double ax = this.tyngdeX/this.masse ;
+        double ay = this.tyngdeY/this.masse;
         
-
         
         this.pos[0] = (float) (1/2 * ax * (t*t) + this.fartX * t + this.pos[0]);
         this.pos[1] = (float) (1/2 * ay * (t*t) + this.fartY * t + this.pos[1]);

@@ -30,7 +30,7 @@ namespace Gravitasjonsimulering
             panel1.Size = new Size(width-250, height - 250);
             panel1.Location = new Point(50, 75);
             textBox1.Location = new Point(width - 175, 50);
-            textBox1.Text = "hei";
+            textBox1.Text = "hei5";
         }
 
         //public void drawellipserectangle(int x, int y, int width, int height, painteventargs e)
@@ -42,20 +42,18 @@ namespace Gravitasjonsimulering
 
         private void OnKeyDownHandler(object sender, KeyEventArgs e)
         {
-            test();
-            if (e.KeyCode == Keys.Enter)
-            {
-                    //Planet SentMasse = new Planet("sen", 45, new float[] {width/2, height/2}, 400, 900);
-                    Planet saturn = new Planet("Saturn", 10, new float[] {100, 100 }, 0, 0);
-                    Planet neptun = new Planet("neptun", Math.Pow(10, 24), new float[] { 200, 200 }, 0, 0);
-                    //Planet jorda = new Planet("Jorda", 50, new float[] { 200, 410 }, 40, 90);
-                    //Planet mars = new Planet("mars", 10, new float[] {500, 410}, 10, 90);
-                    //Planet sola = new Planet("sola", 10, new float[] {600, 410}, 10, 90);
-                    //Planet månen = new Planet("månen", 10, new float[] { 910, 410}, 10, 90);
-                for (int ik = 0; ik < 30; ik++)
+                textBox1.Text += "herjejkeves \n";
+                      //Planet SentMasse = new Planet("sen", 45, new float[] {width/2, height/2}, 400, 900);
+                Planet saturn = new Planet("Saturn", 10, new float[] {100, 100 }, 1 , 0);
+                Planet neptun = new Planet("neptun", Math.Pow(10, 15), new float[] { 400, 400 }, 0, 0);
+                //Planet jorda = new Planet("Jorda", 50, new float[] { 200, 410 }, 40, 90);
+                //Planet mars = new Planet("mars", 10, new float[] {500, 410}, 10, 90);
+                //Planet sola = new Planet("sola", 10, new float[] {600, 410}, 10, 90);
+                //Planet månen = new Planet("månen", 10, new float[] { 910, 410}, 10, 90);
+                for (int ik = 0; ik < 120; ik++)
                 {
                     this.textBox1.Text = e + "\n";
-                    int numOfPlanets = Convert.ToInt32(planetNumInput.Text);
+                    //int numOfPlanets = Convert.ToInt32(planetNumInput.Text);
                     Graphics g = this.panel1.CreateGraphics();
                     Pen pen = new Pen(Color.Red);
                     Brush brush = new SolidBrush(Color.Red);
@@ -68,10 +66,10 @@ namespace Gravitasjonsimulering
 
 
                     List<Planet> planetList = new List<Planet>();
-                    for (int i = 0; i < numOfPlanets; i++)
+                    for (int i = 0; i < 20; i++)
 			        {
-                        int x = rdm.Next(0, width-250);
-                        int y = rdm.Next(0, height -250);
+                        long x = rdm.Next(0, width-250);
+                        long y = rdm.Next(0, height -250);
                         float[] randPos = {x,y};
                         Planet temp = new Planet("her", 10, randPos, 10, 90);
                         //planetList.Add(temp);   
@@ -85,7 +83,8 @@ namespace Gravitasjonsimulering
                     planetList.Add(sola);*/
                     planetList.Add(saturn);
                     planetList.Add(neptun);
-                    textBox1.Text += saturn.pos[0] + "x" + saturn.pos[1] + "y\n";
+                    saturn.tyngdeMet(neptun);
+                    this.textBox1.Text += saturn.pos[0] + "x" + saturn.pos[1] + "y\n";
                     /*saturn.tyngdeMet(neptun);
                     textBox1.Text += saturn.text + "k\n";
                     textBox1.Text += neptun.text;*/
@@ -117,8 +116,8 @@ namespace Gravitasjonsimulering
                
                        // Controls.Add(button);
                         float[] pos = planet.pos;
-                        int x = Convert.ToInt32(pos[0]);
-                        int y = Convert.ToInt32(pos[1]);
+                        long x = Convert.ToInt64(pos[0]);
+                        long y = Convert.ToInt64(pos[1]);
                         g.DrawEllipse(pen, x - 5, y - 5, 10, 10);
                         g.FillEllipse(brush, x - 5, y - 5 , 10, 10);
                         //button.Location = new System.Drawing.Point(x,y);
@@ -127,18 +126,19 @@ namespace Gravitasjonsimulering
                     }
                   
             
-                    Thread.Sleep(1000);
+                    Thread.Sleep(250);
                     foreach (Planet inpPlanet in planetList)
                     {
                         Planet planet = (Planet) inpPlanet;
-                        planet.move(1/10);
+                        planet.move(1);
 
                     }
+                    /*
                     Pen pen2 = new Pen(Color.Turquoise);
                     Brush brush2 = new SolidBrush(Color.Turquoise);
                     int r = 10000;
                     g.DrawEllipse(pen2, -r/2,-r/2,r,r);
-                    g.FillEllipse(brush2, -r/2,-r/2,r,r);
+                    g.FillEllipse(brush2, -r/2,-r/2,r,r);*/
 
 
 
@@ -159,6 +159,9 @@ namespace Gravitasjonsimulering
                     //}
 
                 }
+            if (e.KeyCode == Keys.Enter)
+            {
+      
 
             }
 
