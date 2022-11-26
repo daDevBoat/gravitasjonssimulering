@@ -33,7 +33,7 @@ namespace Gravitasjonsimulering
         {
                 textBox1.Text += "herjejkeves \n";
                       //Planet SentMasse = new Planet("sen", 45, new float[] {width/2, height/2}, 400, 900);
-                Planet saturn = new Planet("Saturn", Math.Pow(10,1), new float[] {800, 250 }, 0  , -5);
+                Planet saturn = new Planet("Saturn", Math.Pow(10,1), new float[] {800, 250 }, -3  , 9);
                 Planet neptun = new Planet("neptun", Math.Pow(10, 14), new float[] { 700, 150 }, 0, 2);
                 //Planet neptun2 = new Planet("neptun", Math.Pow(10, 20), new float[] { 500, 350 }, 0, 0);
                 //Planet jorda = new Planet("Jorda", 50, new float[] { 200, 410 }, 0, 0);
